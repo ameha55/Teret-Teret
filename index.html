@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amharic Input</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@400;700&family=Noto+Serif+Ethiopic:wght@700&family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<header class="top"><div class="wrap">
+<a class="brand site-name" href="index.html">Amharic Input</a>
+<nav><a href="index.html" aria-current="page">Videos</a><a href="method.html" >The method</a><a href="premium.html" >Premium</a></nav>
+<div id="streak"></div></div></header>
+<main class="wrap">
+<section class="hero"><h1>Learn Amharic by understanding it.</h1>
+<p>Watch real Amharic, made easy to follow. No drills, no memorizing. Watch ten minutes a day to build your streak.</p></section>
+<div id="filters"></div>
+<div id="grid"></div>
+</main>
+<dialog id="player">
+<video id="video" controls playsinline></video>
+<div class="dlg-body"><button id="close">Close</button>
+<h2 id="vtitle"></h2><p id="vdesc"></p>
+<p id="verr" class="err" hidden>This video couldn't load. Check that the file is in the videos folder and the name matches videos.js.</p></div>
+</dialog>
+<footer><div class="wrap"><span class="site-name"></span></div></footer>
+<script src="js/videos.js"></script><script src="js/app.js"></script></body></html>
